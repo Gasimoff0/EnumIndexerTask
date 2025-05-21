@@ -60,14 +60,14 @@
             //        Console.WriteLine("Task has been cancelled.");
             //        break;
             //}
-
+            #endregion
             Task task1 = new Task { Title = "Do homework", Status = TaskStatus.NotStarted };
             Task task2 = new Task { Title = "Clean room", Status = TaskStatus.InProgress };
             Task task3 = new Task { Title = "Read book", Status = TaskStatus.Completed };
             Console.WriteLine($"Task: {task1.Title}, Status: {task1.Status}");
             Console.WriteLine($"Task: {task2.Title}, Status: {task2.Status}");
             Console.WriteLine($"Task: {task3.Title}, Status: {task3.Status}");
-            #endregion
+            
 
         }
 
