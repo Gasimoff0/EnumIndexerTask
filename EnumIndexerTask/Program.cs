@@ -61,13 +61,23 @@
             //        break;
             //}
             #endregion
-            Task task1 = new Task { Title = "Do homework", Status = TaskStatus.NotStarted };
-            Task task2 = new Task { Title = "Clean room", Status = TaskStatus.InProgress };
-            Task task3 = new Task { Title = "Read book", Status = TaskStatus.Completed };
-            Console.WriteLine($"Task: {task1.Title}, Status: {task1.Status}");
-            Console.WriteLine($"Task: {task2.Title}, Status: {task2.Status}");
-            Console.WriteLine($"Task: {task3.Title}, Status: {task3.Status}");
-            
+            //Task task1 = new Task { Title = "Do homework", Status = TaskStatus.NotStarted };
+            //Task task2 = new Task { Title = "Clean room", Status = TaskStatus.InProgress };
+            //Task task3 = new Task { Title = "Read book", Status = TaskStatus.Completed };
+            //Console.WriteLine($"Task: {task1.Title}, Status: {task1.Status}");
+            //Console.WriteLine($"Task: {task2.Title}, Status: {task2.Status}");
+            //Console.WriteLine($"Task: {task3.Title}, Status: {task3.Status}");
+
+            SimpleStringColllection collection = new(3);
+            collection[0] = "Salam";
+            collection[1] = "Magas";
+            collection[2] = "Necesen";
+
+            for (int i = 0; i < collection.Length; i++)
+            {
+                Console.WriteLine(collection[i]);
+            }
+
 
         }
 
